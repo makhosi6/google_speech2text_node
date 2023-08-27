@@ -11,12 +11,25 @@
     "url": "git+https://github.com/makhosi6/google_speech2text_node.git"
   },
   "keywords": [
-    "Speech-to-Text", "Speech" , "TTS", "STT", "Node", "JS", "Google Cloud", "@google-cloud/speech"
+    "Speech-to-Text",
+    "Speech",
+    "TTS",
+    "STT",
+    "Node",
+    "JS",
+    "Google Cloud",
+    "@google-cloud/speech"
   ],
   "author": "makhosi6 <ndondo330@gmail.com> (https://makhosandile.me/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/makhosi6/google_speech2text_node/issues"
   },
-  "homepage": "https://github.com/makhosi6/google_speech2text_node#readme"
+  "homepage": "https://github.com/makhosi6/google_speech2text_node#readme",
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.5",
+    "@google-cloud/speech": "^6.0.1",
+    "@types/node": "^20.5.6",
+    "fluent-ffmpeg": "^2.1.2"
+  }
 }
